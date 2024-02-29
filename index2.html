@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grid Layout Example</title>
+<style>
+    /* CSS for Grid Layout */
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two equal columns */
+        grid-gap: 20px; /* Gap between grid items */
+    }
+
+    /* CSS for Text Column */
+    .text-column {
+        padding: 20px;
+        background-color: #f0f0f0;
+    }
+
+    /* CSS for Image Column */
+    .image-column {
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+
+    /* CSS for Image */
+    .image-column img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+    <!-- Text Column -->
+    <div class="text-column">
+        <h2>Text Column</h2>
+        <p>This is some text content in the left column.</p>
+        <p>You can add more content here as needed.</p>
+    </div>
+
+    <!-- Image Column -->
+    <div class="image-column">
+        <h2>Image Column</h2>
+     
+    </div>
+</div>
+
+</body>
+</html>
